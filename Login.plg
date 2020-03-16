@@ -1,0 +1,63 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Login - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/Login.res" /d "_DEBUG" /d "_AFXDLL" "F:\程序\VISUAL程序\Login\Login.rc"" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSP116C.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Login.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\程序\VISUAL程序\Login\Fail_Resign.cpp"
+"F:\程序\VISUAL程序\Login\Login.cpp"
+"F:\程序\VISUAL程序\Login\Login_Fail.cpp"
+"F:\程序\VISUAL程序\Login\Login_Sucess.cpp"
+"F:\程序\VISUAL程序\Login\LoginDlg.cpp"
+"F:\程序\VISUAL程序\Login\Resign.cpp"
+"F:\程序\VISUAL程序\Login\ResignSucess.cpp"
+]
+Creating command line "cl.exe @C:\Users\kyo\AppData\Local\Temp\RSP116C.tmp" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSP116D.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Login.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"F:\程序\VISUAL程序\Login\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\kyo\AppData\Local\Temp\RSP116D.tmp" 
+Creating temporary file "C:\Users\kyo\AppData\Local\Temp\RSP116E.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Login.pdb" /debug /machine:I386 /out:"Debug/Login.exe" /pdbtype:sept 
+".\Debug\Fail_Resign.obj"
+".\Debug\Login.obj"
+".\Debug\Login_Fail.obj"
+".\Debug\Login_Sucess.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\Resign.obj"
+".\Debug\ResignSucess.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Login.res"
+]
+Creating command line "link.exe @C:\Users\kyo\AppData\Local\Temp\RSP116E.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+Fail_Resign.cpp
+Login.cpp
+Login_Fail.cpp
+Login_Sucess.cpp
+LoginDlg.cpp
+Resign.cpp
+ResignSucess.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+Login.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
